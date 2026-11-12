@@ -1,0 +1,28 @@
+{
+  "tarefa": "modelos_02",
+  "quantidade_treinados": 9,
+  "quantidade_nao_treinados": 3,
+  "arquivos_modelo": [
+    "AFIB.joblib",
+    "AFLT.joblib",
+    "BIGU.joblib",
+    "PACE.joblib",
+    "SARRH.joblib",
+    "SBRAD.joblib",
+    "SR.joblib",
+    "STACH.joblib",
+    "SVARR.joblib"
+  ],
+  "limiares": {
+    "AFIB": 0.48804956555913603,
+    "AFLT": 0.9318913157896218,
+    "BIGU": 1.4902353100847536,
+    "PACE": 0.5048819468085017,
+    "SARRH": 0.908140632652589,
+    "SBRAD": 1.09185190034732,
+    "SR": -0.7053088518646068,
+    "STACH": 0.654184612444592,
+    "SVARR": 1.7344139943414498
+  },
+  "observacao": "Contém apenas modelos treinados, com pipeline e limiar ajustados."
+}

@@ -1,0 +1,487 @@
+{
+  "versao": "1.0",
+  "tipo": "condicoes_hierarquicas_multirrotulo",
+  "categorias": {
+    "MI": {
+      "modelo_geral": "MI.joblib",
+      "subcategorias": [
+        {
+          "codigo": "ALMI",
+          "descricao": "anterolateral myocardial infarction",
+          "modelo": "MI__ALMI.joblib"
+        },
+        {
+          "codigo": "AMI",
+          "descricao": "anterior myocardial infarction",
+          "modelo": "MI__AMI.joblib"
+        },
+        {
+          "codigo": "ASMI",
+          "descricao": "anteroseptal myocardial infarction",
+          "modelo": "MI__ASMI.joblib"
+        },
+        {
+          "codigo": "ILMI",
+          "descricao": "inferolateral myocardial infarction",
+          "modelo": "MI__ILMI.joblib"
+        },
+        {
+          "codigo": "IMI",
+          "descricao": "inferior myocardial infarction",
+          "modelo": "MI__IMI.joblib"
+        },
+        {
+          "codigo": "INJAL",
+          "descricao": "subendocardial injury in anterolateral leads",
+          "modelo": "MI__INJAL.joblib"
+        },
+        {
+          "codigo": "INJAS",
+          "descricao": "subendocardial injury in anteroseptal leads",
+          "modelo": "MI__INJAS.joblib"
+        },
+        {
+          "codigo": "INJIL",
+          "descricao": "subendocardial injury in inferolateral leads",
+          "modelo": "MI__INJIL.joblib"
+        },
+        {
+          "codigo": "INJIN",
+          "descricao": "subendocardial injury in inferior leads",
+          "modelo": "MI__INJIN.joblib"
+        },
+        {
+          "codigo": "INJLA",
+          "descricao": "subendocardial injury in lateral leads",
+          "modelo": "MI__INJLA.joblib"
+        },
+        {
+          "codigo": "IPLMI",
+          "descricao": "inferoposterolateral myocardial infarction",
+          "modelo": "MI__IPLMI.joblib"
+        },
+        {
+          "codigo": "IPMI",
+          "descricao": "inferoposterior myocardial infarction",
+          "modelo": "MI__IPMI.joblib"
+        },
+        {
+          "codigo": "LMI",
+          "descricao": "lateral myocardial infarction",
+          "modelo": "MI__LMI.joblib"
+        },
+        {
+          "codigo": "PMI",
+          "descricao": "posterior myocardial infarction",
+          "modelo": "MI__PMI.joblib"
+        }
+      ]
+    },
+    "STTC": {
+      "modelo_geral": "STTC.joblib",
+      "subcategorias": [
+        {
+          "codigo": "ANEUR",
+          "descricao": "ST-T changes compatible with ventricular aneurysm",
+          "modelo": "STTC__ANEUR.joblib"
+        },
+        {
+          "codigo": "DIG",
+          "descricao": "digitalis-effect",
+          "modelo": "STTC__DIG.joblib"
+        },
+        {
+          "codigo": "EL",
+          "descricao": "electrolytic disturbance or drug (former EDIS)",
+          "modelo": "STTC__EL.joblib"
+        },
+        {
+          "codigo": "ISCAL",
+          "descricao": "ischemic in anterolateral leads",
+          "modelo": "STTC__ISCAL.joblib"
+        },
+        {
+          "codigo": "ISCAN",
+          "descricao": "ischemic in anterior leads",
+          "modelo": "STTC__ISCAN.joblib"
+        },
+        {
+          "codigo": "ISCAS",
+          "descricao": "ischemic in anteroseptal leads",
+          "modelo": "STTC__ISCAS.joblib"
+        },
+        {
+          "codigo": "ISCIL",
+          "descricao": "ischemic in inferolateral leads",
+          "modelo": "STTC__ISCIL.joblib"
+        },
+        {
+          "codigo": "ISCIN",
+          "descricao": "ischemic in inferior leads",
+          "modelo": "STTC__ISCIN.joblib"
+        },
+        {
+          "codigo": "ISCLA",
+          "descricao": "ischemic in lateral leads",
+          "modelo": "STTC__ISCLA.joblib"
+        },
+        {
+          "codigo": "ISC_",
+          "descricao": "non-specific ischemic",
+          "modelo": "STTC__ISC_.joblib"
+        },
+        {
+          "codigo": "LNGQT",
+          "descricao": "long QT-interval",
+          "modelo": "STTC__LNGQT.joblib"
+        },
+        {
+          "codigo": "NDT",
+          "descricao": "non-diagnostic T abnormalities",
+          "modelo": "STTC__NDT.joblib"
+        },
+        {
+          "codigo": "NST_",
+          "descricao": "non-specific ST changes",
+          "modelo": "STTC__NST_.joblib"
+        }
+      ]
+    },
+    "CD": {
+      "modelo_geral": "CD.joblib",
+      "subcategorias": [
+        {
+          "codigo": "1AVB",
+          "descricao": "first degree AV block",
+          "modelo": "CD__1AVB.joblib"
+        },
+        {
+          "codigo": "2AVB",
+          "descricao": "second degree AV block",
+          "modelo": "CD__2AVB.joblib"
+        },
+        {
+          "codigo": "3AVB",
+          "descricao": "third degree AV block",
+          "modelo": "CD__3AVB.joblib"
+        },
+        {
+          "codigo": "CLBBB",
+          "descricao": "complete left bundle branch block",
+          "modelo": "CD__CLBBB.joblib"
+        },
+        {
+          "codigo": "CRBBB",
+          "descricao": "complete right bundle branch block",
+          "modelo": "CD__CRBBB.joblib"
+        },
+        {
+          "codigo": "ILBBB",
+          "descricao": "incomplete left bundle branch block",
+          "modelo": "CD__ILBBB.joblib"
+        },
+        {
+          "codigo": "IRBBB",
+          "descricao": "incomplete right bundle branch block",
+          "modelo": "CD__IRBBB.joblib"
+        },
+        {
+          "codigo": "IVCD",
+          "descricao": "non-specific intraventricular conduction disturbance (block)",
+          "modelo": "CD__IVCD.joblib"
+        },
+        {
+          "codigo": "LAFB",
+          "descricao": "left anterior fascicular block",
+          "modelo": "CD__LAFB.joblib"
+        },
+        {
+          "codigo": "LPFB",
+          "descricao": "left posterior fascicular block",
+          "modelo": "CD__LPFB.joblib"
+        },
+        {
+          "codigo": "WPW",
+          "descricao": "Wolf-Parkinson-White syndrome",
+          "modelo": "CD__WPW.joblib"
+        }
+      ]
+    },
+    "HYP": {
+      "modelo_geral": "HYP.joblib",
+      "subcategorias": [
+        {
+          "codigo": "LAO/LAE",
+          "descricao": "left atrial overload/enlargement",
+          "modelo": "HYP__LAO/LAE.joblib"
+        },
+        {
+          "codigo": "LVH",
+          "descricao": "left ventricular hypertrophy",
+          "modelo": "HYP__LVH.joblib"
+        },
+        {
+          "codigo": "RAO/RAE",
+          "descricao": "right atrial overload/enlargement",
+          "modelo": "HYP__RAO/RAE.joblib"
+        },
+        {
+          "codigo": "RVH",
+          "descricao": "right ventricular hypertrophy",
+          "modelo": "HYP__RVH.joblib"
+        },
+        {
+          "codigo": "SEHYP",
+          "descricao": "septal hypertrophy",
+          "modelo": "HYP__SEHYP.joblib"
+        }
+      ]
+    },
+    "FORM": {
+      "modelo_geral": "FORM.joblib",
+      "subcategorias": [
+        {
+          "codigo": "ABQRS",
+          "descricao": "abnormal QRS",
+          "modelo": "FORM__ABQRS.joblib"
+        },
+        {
+          "codigo": "DIG",
+          "descricao": "digitalis-effect",
+          "modelo": "FORM__DIG.joblib"
+        },
+        {
+          "codigo": "HVOLT",
+          "descricao": "high QRS voltage",
+          "modelo": "FORM__HVOLT.joblib"
+        },
+        {
+          "codigo": "INVT",
+          "descricao": "inverted T-waves",
+          "modelo": "FORM__INVT.joblib"
+        },
+        {
+          "codigo": "LNGQT",
+          "descricao": "long QT-interval",
+          "modelo": "FORM__LNGQT.joblib"
+        },
+        {
+          "codigo": "LOWT",
+          "descricao": "low amplitude T-waves",
+          "modelo": "FORM__LOWT.joblib"
+        },
+        {
+          "codigo": "LPR",
+          "descricao": "prolonged PR interval",
+          "modelo": "FORM__LPR.joblib"
+        },
+        {
+          "codigo": "LVOLT",
+          "descricao": "low QRS voltages in the frontal and horizontal leads",
+          "modelo": "FORM__LVOLT.joblib"
+        },
+        {
+          "codigo": "NDT",
+          "descricao": "non-diagnostic T abnormalities",
+          "modelo": "FORM__NDT.joblib"
+        },
+        {
+          "codigo": "NST_",
+          "descricao": "non-specific ST changes",
+          "modelo": "FORM__NST_.joblib"
+        },
+        {
+          "codigo": "NT_",
+          "descricao": "non-specific T-wave changes",
+          "modelo": "FORM__NT_.joblib"
+        },
+        {
+          "codigo": "PAC",
+          "descricao": "atrial premature complex",
+          "modelo": "FORM__PAC.joblib"
+        },
+        {
+          "codigo": "PRC(S)",
+          "descricao": "premature complex(es)",
+          "modelo": "FORM__PRC(S).joblib"
+        },
+        {
+          "codigo": "PVC",
+          "descricao": "ventricular premature complex",
+          "modelo": "FORM__PVC.joblib"
+        },
+        {
+          "codigo": "QWAVE",
+          "descricao": "Q waves present",
+          "modelo": "FORM__QWAVE.joblib"
+        },
+        {
+          "codigo": "STD_",
+          "descricao": "non-specific ST depression",
+          "modelo": "FORM__STD_.joblib"
+        },
+        {
+          "codigo": "STE_",
+          "descricao": "non-specific ST elevation",
+          "modelo": "FORM__STE_.joblib"
+        },
+        {
+          "codigo": "TAB_",
+          "descricao": "T-wave abnormality",
+          "modelo": "FORM__TAB_.joblib"
+        },
+        {
+          "codigo": "VCLVH",
+          "descricao": "voltage criteria (QRS) for left ventricular hypertrophy",
+          "modelo": "FORM__VCLVH.joblib"
+        }
+      ]
+    }
+  },
+  "feature_cols": [
+    "I_valid",
+    "I_std",
+    "I_rms",
+    "I_ptp",
+    "I_mad",
+    "I_deriv_mad",
+    "I_energy_1_5",
+    "I_energy_5_15",
+    "I_energy_15_35",
+    "II_valid",
+    "II_std",
+    "II_rms",
+    "II_ptp",
+    "II_mad",
+    "II_deriv_mad",
+    "II_energy_1_5",
+    "II_energy_5_15",
+    "II_energy_15_35",
+    "III_valid",
+    "III_std",
+    "III_rms",
+    "III_ptp",
+    "III_mad",
+    "III_deriv_mad",
+    "III_energy_1_5",
+    "III_energy_5_15",
+    "III_energy_15_35",
+    "aVR_std",
+    "aVR_rms",
+    "aVR_ptp",
+    "aVR_mad",
+    "aVR_deriv_mad",
+    "aVR_energy_1_5",
+    "aVR_energy_5_15",
+    "aVR_energy_15_35",
+    "aVR_valid",
+    "aVL_std",
+    "aVL_rms",
+    "aVL_ptp",
+    "aVL_mad",
+    "aVL_deriv_mad",
+    "aVL_energy_1_5",
+    "aVL_energy_5_15",
+    "aVL_energy_15_35",
+    "aVL_valid",
+    "aVF_std",
+    "aVF_rms",
+    "aVF_ptp",
+    "aVF_mad",
+    "aVF_deriv_mad",
+    "aVF_energy_1_5",
+    "aVF_energy_5_15",
+    "aVF_energy_15_35",
+    "aVF_valid",
+    "V1_valid",
+    "V1_std",
+    "V1_rms",
+    "V1_ptp",
+    "V1_mad",
+    "V1_deriv_mad",
+    "V1_energy_1_5",
+    "V1_energy_5_15",
+    "V1_energy_15_35",
+    "V2_valid",
+    "V2_std",
+    "V2_rms",
+    "V2_ptp",
+    "V2_mad",
+    "V2_deriv_mad",
+    "V2_energy_1_5",
+    "V2_energy_5_15",
+    "V2_energy_15_35",
+    "V3_valid",
+    "V3_std",
+    "V3_rms",
+    "V3_ptp",
+    "V3_mad",
+    "V3_deriv_mad",
+    "V3_energy_1_5",
+    "V3_energy_5_15",
+    "V3_energy_15_35",
+    "V4_valid",
+    "V4_std",
+    "V4_rms",
+    "V4_ptp",
+    "V4_mad",
+    "V4_deriv_mad",
+    "V4_energy_1_5",
+    "V4_energy_5_15",
+    "V4_energy_15_35",
+    "V5_valid",
+    "V5_std",
+    "V5_rms",
+    "V5_ptp",
+    "V5_mad",
+    "V5_deriv_mad",
+    "V5_energy_1_5",
+    "V5_energy_5_15",
+    "V5_energy_15_35",
+    "V6_valid",
+    "V6_std",
+    "V6_rms",
+    "V6_ptp",
+    "V6_mad",
+    "V6_deriv_mad",
+    "V6_energy_1_5",
+    "V6_energy_5_15",
+    "V6_energy_15_35",
+    "n_peaks",
+    "hr_bpm",
+    "rr_mean_ms",
+    "rr_sd_ms",
+    "rr_cv",
+    "rmssd_ms",
+    "rr_p10_ms",
+    "rr_p90_ms",
+    "age",
+    "sex_ptbxl",
+    "age_missing",
+    "sex_masculino",
+    "sex_feminino",
+    "sex_desconhecido",
+    "idade_maior_igual_18",
+    "faixa_pediatrico_0_16",
+    "faixa_adulto_jovem_17_39",
+    "faixa_adulto_40_59",
+    "faixa_idoso_60_mais",
+    "faixa_desconhecido"
+  ],
+  "folds": {
+    "treino": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "calibracao": 9,
+    "teste": 10
+  },
+  "probabilidades": "Calibradas por regressão logística no fold 9",
+  "observacao": "Probabilidades de rótulos SCP; não representam certeza diagnóstica."
+}

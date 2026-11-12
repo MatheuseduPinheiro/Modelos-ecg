@@ -1,0 +1,4 @@
+label,reason,train_pos,val_pos,test_pos
+PSVT,amostras positivas/negativas insuficientes,19,3,2
+SVTAC,amostras positivas/negativas insuficientes,21,3,3
+TRIGU,amostras positivas/negativas insuficientes,16,2,2

@@ -1,0 +1,29 @@
+{
+  "modelos": [
+    {
+      "label": "Norm_e_Sr",
+      "arquivo": "Norm_e_Sr.joblib",
+      "features": 128,
+      "n_teste": 2147
+    }
+  ],
+  "metodologia": "SVM RBF e Platt",
+  "semente": 42,
+  "definicao_alvo": "NORM ou SR: união sem duplicar registros",
+  "folds": {
+    "treino": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "selecionar_C": 8,
+    "calibracao": 9,
+    "teste": 10
+  },
+  "observacao": "Um único modelo binário Norm_e_Sr.joblib."
+}

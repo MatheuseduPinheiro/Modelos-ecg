@@ -1,0 +1,68 @@
+﻿modelo,grupo,tipo,codigo_scp,total_positivos,positivos_treino,positivos_validacao,positivos_teste,negativos_treino,negativos_validacao,negativos_teste,elegivel_pelos_filtros_atuais,motivo
+MI,MI,categoria,,5468,4378,540,550,12687,1602,1597,True,Atende aos critérios
+STTC,STTC,categoria,,5202,4162,523,517,12903,1619,1630,True,Atende aos critérios
+CD,CD,categoria,,4483,3575,459,449,13490,1683,1698,True,Atende aos critérios
+HYP,HYP,categoria,,2644,2117,267,260,14948,1875,1887,True,Atende aos critérios
+FORM,FORM,categoria,,8888,7121,894,873,9944,1248,1274,True,Atende aos critérios
+MI__ALMI,MI,subcategoria,ALMI,288,232,29,27,16833,2113,2120,True,Atende aos critérios
+MI__AMI,MI,subcategoria,AMI,353,282,36,35,16783,2106,2112,True,Atende aos critérios
+MI__ASMI,MI,subcategoria,ASMI,2357,1887,236,234,15178,1906,1913,True,Atende aos critérios
+MI__ILMI,MI,subcategoria,ILMI,478,383,47,48,16682,2095,2099,True,Atende aos critérios
+MI__IMI,MI,subcategoria,IMI,2675,2142,266,267,14923,1876,1880,True,Atende aos critérios
+MI__INJAL,MI,subcategoria,INJAL,145,116,15,14,16949,2127,2133,True,Atende aos critérios
+MI__INJAS,MI,subcategoria,INJAS,214,171,21,22,16894,2121,2125,True,Atende aos critérios
+MI__INJIL,MI,subcategoria,INJIL,15,11,2,2,17054,2140,2145,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+MI__INJIN,MI,subcategoria,INJIN,18,14,2,2,17051,2140,2145,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+MI__INJLA,MI,subcategoria,INJLA,17,13,2,2,17052,2140,2145,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+MI__IPLMI,MI,subcategoria,IPLMI,51,41,5,5,17024,2137,2142,False,Poucos positivos na validação
+MI__IPMI,MI,subcategoria,IPMI,33,26,4,3,17039,2138,2144,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+MI__LMI,MI,subcategoria,LMI,201,161,20,20,16904,2122,2127,True,Atende aos critérios
+MI__PMI,MI,subcategoria,PMI,17,13,2,2,17052,2140,2145,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+STTC__ANEUR,STTC,subcategoria,ANEUR,104,84,10,10,16981,2132,2137,False,Poucos positivos na validação
+STTC__DIG,STTC,subcategoria,DIG,181,145,18,18,16920,2124,2129,True,Atende aos critérios
+STTC__EL,STTC,subcategoria,EL,95,76,10,9,16989,2132,2138,False,Poucos positivos na validação
+STTC__ISCAL,STTC,subcategoria,ISCAL,659,527,66,66,16538,2076,2081,True,Atende aos critérios
+STTC__ISCAN,STTC,subcategoria,ISCAN,44,35,5,4,17030,2137,2143,False,Poucos positivos na validação; Poucos positivos no teste
+STTC__ISCAS,STTC,subcategoria,ISCAS,169,135,17,17,16930,2125,2130,True,Atende aos critérios
+STTC__ISCIL,STTC,subcategoria,ISCIL,179,143,18,18,16922,2124,2129,True,Atende aos critérios
+STTC__ISCIN,STTC,subcategoria,ISCIN,218,175,21,22,16890,2121,2125,True,Atende aos critérios
+STTC__ISCLA,STTC,subcategoria,ISCLA,140,113,14,13,16952,2128,2134,False,Poucos positivos na validação
+STTC__ISC_,STTC,subcategoria,ISC_,1272,1019,125,128,16046,2017,2019,True,Atende aos critérios
+STTC__LNGQT,STTC,subcategoria,LNGQT,117,94,12,11,16971,2130,2136,False,Poucos positivos na validação
+STTC__NDT,STTC,subcategoria,NDT,1824,1460,182,182,15605,1960,1965,True,Atende aos critérios
+STTC__NST_,STTC,subcategoria,NST_,736,593,70,73,16472,2072,2074,True,Atende aos critérios
+CD__1AVB,CD,subcategoria,1AVB,755,602,76,77,16463,2066,2070,True,Atende aos critérios
+CD__2AVB,CD,subcategoria,2AVB,13,11,1,1,17054,2141,2146,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+CD__3AVB,CD,subcategoria,3AVB,16,12,2,2,17053,2140,2145,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+CD__CLBBB,CD,subcategoria,CLBBB,536,428,54,54,16637,2088,2093,True,Atende aos critérios
+CD__CRBBB,CD,subcategoria,CRBBB,541,432,55,54,16633,2087,2093,True,Atende aos critérios
+CD__ILBBB,CD,subcategoria,ILBBB,77,62,7,8,17003,2135,2139,False,Poucos positivos na validação
+CD__IRBBB,CD,subcategoria,IRBBB,868,691,88,89,16374,2054,2058,True,Atende aos critérios
+CD__IVCD,CD,subcategoria,IVCD,681,550,71,60,16515,2071,2087,True,Atende aos critérios
+CD__LAFB,CD,subcategoria,LAFB,1602,1281,163,158,15784,1979,1989,True,Atende aos critérios
+CD__LPFB,CD,subcategoria,LPFB,170,136,17,17,16929,2125,2130,True,Atende aos critérios
+CD__WPW,CD,subcategoria,WPW,79,64,7,8,17001,2135,2139,False,Poucos positivos na validação
+HYP__LAO/LAE,HYP,subcategoria,LAO/LAE,423,340,43,40,16725,2099,2107,True,Atende aos critérios
+HYP__LVH,HYP,subcategoria,LVH,2131,1707,210,214,15358,1932,1933,True,Atende aos critérios
+HYP__RAO/RAE,HYP,subcategoria,RAO/RAE,98,79,9,10,16986,2133,2137,False,Poucos positivos na validação
+HYP__RVH,HYP,subcategoria,RVH,126,102,12,12,16963,2130,2135,False,Poucos positivos na validação
+HYP__SEHYP,HYP,subcategoria,SEHYP,29,24,3,2,17041,2139,2145,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+FORM__ABQRS,FORM,subcategoria,ABQRS,3317,2674,322,321,14391,1820,1826,True,Atende aos critérios
+FORM__DIG,FORM,subcategoria,DIG,181,145,18,18,16920,2124,2129,True,Atende aos critérios
+FORM__HVOLT,FORM,subcategoria,HVOLT,61,48,7,6,17017,2135,2141,False,Poucos positivos na validação
+FORM__INVT,FORM,subcategoria,INVT,294,235,30,29,16830,2112,2118,True,Atende aos critérios
+FORM__LNGQT,FORM,subcategoria,LNGQT,117,94,12,11,16971,2130,2136,False,Poucos positivos na validação
+FORM__LOWT,FORM,subcategoria,LOWT,437,349,44,44,16716,2098,2103,True,Atende aos critérios
+FORM__LPR,FORM,subcategoria,LPR,331,264,34,33,16801,2108,2114,True,Atende aos critérios
+FORM__LVOLT,FORM,subcategoria,LVOLT,177,141,18,18,16924,2124,2129,True,Atende aos critérios
+FORM__NDT,FORM,subcategoria,NDT,1824,1460,182,182,15605,1960,1965,True,Atende aos critérios
+FORM__NST_,FORM,subcategoria,NST_,736,593,70,73,16472,2072,2074,True,Atende aos critérios
+FORM__NT_,FORM,subcategoria,NT_,418,335,41,42,16730,2101,2105,True,Atende aos critérios
+FORM__PAC,FORM,subcategoria,PAC,389,309,40,40,16756,2102,2107,True,Atende aos critérios
+FORM__PRC(S),FORM,subcategoria,PRC(S),10,8,1,1,17057,2141,2146,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+FORM__PVC,FORM,subcategoria,PVC,1134,908,112,114,16157,2030,2033,True,Atende aos critérios
+FORM__QWAVE,FORM,subcategoria,QWAVE,540,432,55,53,16633,2087,2094,True,Atende aos critérios
+FORM__STD_,FORM,subcategoria,STD_,1004,804,101,99,16261,2041,2048,True,Atende aos critérios
+FORM__STE_,FORM,subcategoria,STE_,28,22,3,3,17043,2139,2144,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+FORM__TAB_,FORM,subcategoria,TAB_,29,22,4,3,17043,2138,2144,False,Poucos positivos no treino; Poucos positivos na validação; Poucos positivos no teste
+FORM__VCLVH,FORM,subcategoria,VCLVH,867,693,87,87,16372,2055,2060,True,Atende aos critérios
